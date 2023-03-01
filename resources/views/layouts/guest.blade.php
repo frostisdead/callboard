@@ -11,8 +11,7 @@
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Scripts -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <script src="https://cdn.jsdelivr.net/npm/vite@4.1.4/dist/node/index.min.js"></script>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans text-gray-900 antialiased">
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
